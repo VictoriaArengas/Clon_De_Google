@@ -1,0 +1,89 @@
+* {
+    text-align: center;
+    margin: 0%;
+    font-family: roboto;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    padding: 0 15px;
+}
+
+.Inicio {
+        font-size: 18px;
+}
+
+.Medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+#logo {
+    width: 80%;
+    padding: 30px;
+}
+
+#input-search {
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.cajadetexto {
+    position: static;
+}
+
+.cajadetexto :hover {
+    background-color: rgb(247, 246, 246);
+}
+
+.btn-search {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+}
+
+#search {
+    background-color: rgb(247, 246, 246);
+    border: rgb(247, 246, 246);
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#lucky {
+    background-color: rgb(247, 246, 246);
+    border: rgb(247, 246, 246);
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.btn-search:hover {
+    background-color: rgb(247, 246, 246);
+}
+
+.Idioma {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+footer {
+    height: 30px;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.footer-link {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+}
